@@ -38,3 +38,4 @@
 // #define DEBUG_MATRIX_SCAN_RATE
 // #define PS2_MOUSE_DEBUG_HID
 // #define PS2_MOUSE_DEBUG_RAW
+# define TAPPING_TERM 150
