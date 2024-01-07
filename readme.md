@@ -1,6 +1,6 @@
 # DO42
 
-[image of keyboard](images/do42.jpg)
+![image of keyboard](images/do42.jpg)
 
 This is a 42 key keyboard with a trackpoint on the left half and a dpad on the right half.
 
