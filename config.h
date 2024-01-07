@@ -1,9 +1,9 @@
 #pragma once
 
-/* 		 Define Handedness 		 */
+// Define Handedness
 // #define EE_HANDS
 
-/* 		 Pointing Device 		 */
+// Pointing Device
 #ifdef PS2_DRIVER_BUSYWAIT
 #   define PS2_CLOCK_PIN   B1
 #   define PS2_DATA_PIN    B2
@@ -31,10 +31,10 @@
 #   define PS2_INT_VECT   PCINT0_vect
 #endif
 
-/* 		 Unused Functions 		 */
+// Unused functions
+// #define NO_ACTION_TAPPING
 #define NO_ACTION_ONESHOT
 
-/* 		 Debug 		 */
 // #define DEBUG_MATRIX_SCAN_RATE
 // #define PS2_MOUSE_DEBUG_HID
 // #define PS2_MOUSE_DEBUG_RAW

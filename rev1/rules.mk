@@ -1,1 +1,1 @@
-# Define rules for rev1
+# Define rules that should always work here
