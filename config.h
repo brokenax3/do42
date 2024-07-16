@@ -12,9 +12,7 @@
 #endif
 
 #ifdef PS2_DRIVER_INTERRUPT
-#   define PS2_MOUSE_SCROLL_BTN_MASK 0
-#   define PS2_MOUSE_X_MULTIPLIER 2
-#   define PS2_MOUSE_Y_MULTIPLIER 2
+#   define PS2_MOUSE_USE_REMOTE_MODE
 #   define PS2_CLOCK_PIN   B1
 #   define PS2_DATA_PIN    B2
 
@@ -32,10 +30,10 @@
 #endif
 
 /* 		 Unused Functions 		 */
-#define NO_ACTION_ONESHOT
+// #define NO_ACTION_ONESHOT
 
 /* 		 Debug 		 */
 // #define DEBUG_MATRIX_SCAN_RATE
 // #define PS2_MOUSE_DEBUG_HID
 // #define PS2_MOUSE_DEBUG_RAW
-# define TAPPING_TERM 150
+# define TAPPING_TERM 120

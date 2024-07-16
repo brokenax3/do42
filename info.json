@@ -13,11 +13,11 @@
         "cols": ["D3", "D2", "D1", "D4", "C6", "D7"],
         "rows": ["B4", "B5", "F4", "E6" ,"F5"]
     },
-    "features" : {
-        "extrakey" : true,
-        "lto" : true,
-        "mousekey" : true,
-        "nkro" : true
+    "build" : {
+        "lto" : true
+    },
+    "mousekey" : {
+        "enabled" : true
     },
     "diode_direction": "COL2ROW",
     "split": {
