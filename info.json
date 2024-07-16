@@ -1,0 +1,30 @@
+{
+    "keyboard_name": "do42",
+    "manufacturer": "YK",
+    "url": "",
+    "maintainer": "brokenaxe",
+    "tags" : ["ortho", "split"],
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0580",
+        "device_version": "0.0.1"
+    },
+    "matrix_pins": {
+        "cols": ["D3", "D2", "D1", "D4", "C6", "D7"],
+        "rows": ["B4", "B5", "F4", "E6" ,"F5"]
+    },
+    "features" : {
+        "extrakey" : true,
+        "lto" : true,
+        "mousekey" : true,
+        "nkro" : true
+    },
+    "diode_direction": "COL2ROW",
+    "split": {
+        "enabled" : true,
+        "soft_serial_pin": "D0"
+    },
+    "processor": "atmega32u4",
+    "bootloader": "caterina"
+}
+
