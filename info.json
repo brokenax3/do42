@@ -1,30 +1,29 @@
 {
-    "keyboard_name": "do42",
     "manufacturer": "YK",
-    "url": "",
+    "keyboard_name": "do42",
     "maintainer": "brokenaxe",
-    "tags" : ["ortho", "split"],
-    "usb": {
-        "vid": "0xFEED",
-        "pid": "0x0580",
-        "device_version": "0.0.1"
-    },
-    "matrix_pins": {
-        "cols": ["D3", "D2", "D1", "D4", "C6", "D7"],
-        "rows": ["B4", "B5", "F4", "E6" ,"F5"]
-    },
-    "build" : {
-        "lto" : true
-    },
-    "mousekey" : {
-        "enabled" : true
+    "bootloader": "caterina",
+    "build": {
+        "lto": true
     },
     "diode_direction": "COL2ROW",
-    "split": {
-        "enabled" : true,
-        "soft_serial_pin": "D0"
+    "matrix_pins": {
+        "cols": ["D3", "D2", "D1", "D4", "C6", "D7"],
+        "rows": ["B4", "B5", "F4", "E6", "F5"]
+    },
+    "mousekey": {
+        "enabled": true
     },
     "processor": "atmega32u4",
-    "bootloader": "caterina"
+    "split": {
+        "enabled": true,
+        "soft_serial_pin": "D0"
+    },
+    "tags": ["ortho", "split"],
+    "url": "",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x0580",
+        "vid": "0xFEED"
+    }
 }
-
